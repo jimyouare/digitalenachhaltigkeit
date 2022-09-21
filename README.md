@@ -1,12 +1,1 @@
- __________________
-< digitalenachhaltigkeit >
- ------------------
-   \
-    \
-        .--.
-       |o_o |
-       |:_/ |
-      //   \ \
-     (|     | )
-    /'\_   _/`\
-    \___)=(___/
+# digitalenachhaltigkeit
