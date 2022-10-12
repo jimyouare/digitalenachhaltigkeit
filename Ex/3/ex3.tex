@@ -1,0 +1,86 @@
+\documentclass[10pt]{article}
+
+\usepackage[
+	a4paper,
+	total={150mm, 237mm},
+	left=30mm,
+	top=30mm,
+]{geometry}
+
+% Language
+\usepackage[german]{babel}
+\usepackage[utf8]{inputenc}
+
+% Fancy Tables
+\usepackage{booktabs}
+
+% Math mode
+\usepackage{amsfonts, amsmath, amssymb, bm, nccmath}
+
+% For the algorithms
+\usepackage[linesnumbered,vlined]{algorithm2e}
+\usepackage{algorithmic}
+
+% Better enumeration
+\usepackage{enumerate}
+
+% Links
+\usepackage{hyperref}
+\usepackage{listings}
+
+% Fancy header / footer
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{}
+\fancyfoot{}
+\fancyhead[L]{Digitale Nachhaltigkeit \\ Serie \thesection}
+\fancyhead[R]{Paco Eggimann\\19-106-103}
+\fancyfoot[R]{\thepage}
+\renewcommand{\headrulewidth}{1pt}
+\renewcommand{\footrulewidth}{1pt}
+% Reset header / footer on titlepage
+\fancypagestyle{titlepage}{
+    \fancyhead{}
+    \fancyfoot{}
+    \renewcommand{\headrulewidth}{0pt}
+    \renewcommand{\footrulewidth}{0pt}
+}
+\setlength{\headheight}{35pt}
+
+\parindent 0ex
+
+\newcommand{\heading}[2]{\setcounter{section}{#2}\section*{#1 #2}}
+\newcommand{\problem}[1]{\subsection{#1}}
+\newcommand{\proof}[1]{\subsubsection*{#1}}
+
+\newcommand{\LRarr}{\Leftrightarrow}
+
+\begin{document}
+
+    \heading{Serie}{3}
+    \problem{Option A}
+    Wir analysieren im Folgenden die App Strava. Das Ziel dieser App ist es, das Teilen von Ausdauersport-Aktivitäten zu erleichtern und solche schön darzustellen. 
+    
+    \begin{enumerate}
+    	\item Das Produkt ist sehr ausgereift, Strava bietet vielerlei Funktionen. So werden beispielsweise Karten angezeigt, mit eingezeichnetem Laufweg. Oder auch Werden die Zeiten erfasst, sowie die Pulswerte etc. Der Benutzer kann dabei selber auswählen welche Daten sichtbar sein sollen, und welche nicht .
+    	\item Strava ist nicht Opensource, jedoch enthält es einige Opensource Komponenten. Diese Komponenten werden widerum in geänderter Form zur weiterverwendung zur verfügung gestellt (Github). Weiter findet man mit einer einfachen Google suche die Lizenzen der Software, die Strukturen sind also klar. 
+    	\item Strava hat den Sinn, die Daten der aktivität aufzubereiten, und diese zum Teilen bereit zu stellen. Aus diesem Grund werden natürlich die semantischen Daten maschinell verarbeitet und dies auch sehr effizient. Die Daten können mehrere Formen haben. 
+    	\item Leider ist nicht ersichtlich wie Strava die Daten speichert. Ob dies Lokal oder auf mehreren Servern geschieht ist nicht ganz klar. Jedoch kann davon ausgegeangen werden, das bei den Datenmengen, welche Strava verarbeitet, mehr als nur ein Server diese Speichert. 
+    	\item Die Lizenzen für Strava sind Copyright Lizenzen. Diese sind einsehbar mit einer einfachen Google Suche. Jedoch ist das abändern der Software nicht erlaubt, da es sich nicht um Opensource handelt.
+    	\item Auch das geteilte Wissen, welches beim Entwickeln und betreiben der Applikation angeeignet wurde, wird nur Teils weitergegeben. So werden nur die Teile weitergegeben, welche sie weitergeben müssen, wegen Open Source.
+    	\item Auch die Patizipationsstruktur ist sehr eingeschränkt, da wiederum Strava keine Opensource Software ist. Bei Strava können jedoch via Support verbesserungsvorschläge eingereicht werden, welche dann von ihren eigenen Entwickler geprüft werden.
+    	\item Hier wiederum sind die Führungsstrukturen sehr Konservativ Strava wird von einer einzigen Company verwaltet, welche auch alleine entscheidet wie die Weiterentwicklung der App aussieht.
+    	\item Die finanzierung von Strava beruht auf einem Fremium Prinzip. So sind die Basisfunktionen von Strava erreichbar, ohne zu Zahlen. Will man ejdoch weitere Funktionen, wie zum Beispiel eine eigene Route verfassen, oder sich mit anderen Messen, dann wird ein Jahresbeitrag von 64 CHF verlangt. 
+    	\item Ich denke dennoch, dass Strava einen wichtigen Beitrag zur nachhaltigen Entwicklung leistet. Zum einen bildet Strava eine Community, zum andern fördert Strava sehr aktiv, umweltfreundliche Methoden für alltägliches zu verwenden. So erhält man beispielsweise Awards fürs pendeln mit dem Fahrrad, oder zu Fuss. Weiter hat Strava auch sogenannte Challenges, wobei Preise wie Kleider etc. vergeben werden, sofern man diese Erfüllt.
+    \end{enumerate}
+
+Nach den Kriterien, kann abschliessend gesagt werden, dass Strava in gewissen Pukten die Krieterien der Digitalen Nachhaltigkeit sehr gut erfüllt, in andern jedoch noch Verbesserungspotential besitzt. So wäre zum Beispiel ein Wechsel auf eine Opensource Lizenz sinnvoll für die Digitale Nachhaltigkeit. 
+
+    \problem{Aufgabe 2}
+        Anschliessend an Aufgabe 1 können wir nun sagen, dass alle Kriterien, welche mit einer Opensource Lizenz die Punkte 4 -8 stark verbessern. Deshalb würde ich Vorschlagen die Sourcen zu veröffentlichen und eine offene Partizipationsstruktur zu erstellen. Dabei wäre ein Meritokratisches System wohl am besten geeignet, da so die Founder der App immernoch am meisten zu sagen haben. Weiter Verbesserungen würde ich in einem ersten Schritt nicht vornehmen. \\
+        
+        In fehrner Zukunft, könnte noch ein Wechsel von einem Fremium Prinzip auf freiwillige Spenden angeschaut werden, oder vielleicht sogar statliche Subventionen, denn Strava trägt dazu bei die Umwelt zu schonen. 
+
+
+
+\end{document}
