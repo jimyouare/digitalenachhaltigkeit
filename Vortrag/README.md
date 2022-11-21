@@ -18,3 +18,17 @@ npm packages
 
 vorteile 
 nachteile
+
+
+[Increased security through open source](https://dl.acm.org/doi/fullHtml/10.1145/1188913.1188921) -> interessante Kapitel "Open vs Closed Source" & "Open Source for security"
+
+[Software security for open-source systems](https://ieeexplore.ieee.org/abstract/document/1176994) -> Artikel über "security enhancements that take ad-
+vantage of the nature of open-source software" -> Software auditing tools, Vulnerability mitigation tools & Behavior management systems
+
+bspw. Chancen von Security Tools die für Open Source Software gebraucht werden können
+
+weitere Quellen: 
+
+[The 25 Best Open Source Security Tools To Protect Your System](https://www.ubuntupit.com/best-open-source-security-tools/)
+
+[Best Open Source Security Tools](https://www.esecurityplanet.com/products/open-source-security-tools/)
