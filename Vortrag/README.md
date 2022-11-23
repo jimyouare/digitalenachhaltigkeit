@@ -32,3 +32,5 @@ weitere Quellen:
 [The 25 Best Open Source Security Tools To Protect Your System](https://www.ubuntupit.com/best-open-source-security-tools/)
 
 [Best Open Source Security Tools](https://www.esecurityplanet.com/products/open-source-security-tools/)
+
+[Paper](https://www.researchgate.net/profile/Shao-Fang-Wen/publication/322424596_Software_security_in_open_source_development_A_systematic_literature_review/links/5caee8d4a6fdcc1d498c20dd/Software-security-in-open-source-development-A-systematic-literature-review.pdf)
