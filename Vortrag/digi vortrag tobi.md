@@ -14,13 +14,13 @@ Ich glaube das Folgende Zitat ist in dieser Vorlesung auch schon vorgekommen, tr
 Given enough eyeballs, all bugs are shallow
 - von Eric S. Raymond (Amerikanischer software developer, open-source software advocate)
 
-Auf der anderen Seite des Spektrums die Realität
+Auf der einen Seite haben wir edle Grundsätze und auf der anderen Seite auch die harte realität. 
 
 Heartbleed Bug in OpenSSL eine schwerwiegende Sicherheitslücke (Entschlüsselung von Daten, VoIP etc) die 27 Monate existierte (2014 behoben)
 
 oder auch die Shellshock Sicherheitslücke (Variable welche nach der Auswertung ungeprüft Programmcode ausgeführt)
 
-Auf der einen Seite haben wir edle Grundsätze und auf der anderen Seite auch die harte realität. 
+
 Damit sind wir miten im Thema 
 -> next
 
